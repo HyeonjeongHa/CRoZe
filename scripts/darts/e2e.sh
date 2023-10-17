@@ -1,0 +1,12 @@
+python main.py \
+    --proxy_types ONE_PROXY_TYPE \
+    --w_sampling \
+    --sample_num SAMPLE_NUM \
+    --sampling_type SAMPLING_TYPE \
+    --init_pool INIT_POOL_SIZE \
+    --sample_pool SAMPLING_POOL_SIZE \
+    --search_space darts \
+    --data PATH_TO_DATA \
+    --dataset DATASET \
+    --save_dir PATH_TO_SAVE_PROXY_VALUES \
+    --e2e
